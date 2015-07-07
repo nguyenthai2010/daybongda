@@ -1,0 +1,13 @@
+{
+  "name": "datracka/layerslider",
+  "type": "wordpress-plugin",
+  "package": {
+    "source": {
+      "url": "git@github.com:datracka/layerslider.git",
+      "type": "git"
+    },
+    "require": {
+      "composer/installers": "~1.0.6"
+    }
+  }
+}
