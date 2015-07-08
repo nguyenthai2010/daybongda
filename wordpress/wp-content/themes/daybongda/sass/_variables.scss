@@ -1,0 +1,22 @@
+@mixin Fontsite-Regular( $value, $lh : 1.2 ) {
+
+}
+
+@mixin Fontsite-Medium( $value, $lh : 1.2 ) {
+
+}
+
+@mixin Fontsite-Bold( $value, $lh : 1.2 ) {
+
+}
+
+@mixin setPositionLeft( $top:0, $left:0) {
+  position: absolute;
+  top: $top;
+  left: $left;
+}
+
+$color-hover: #fcb448;
+$color-main:#ff4081;
+$color-main2:#82d5db;
+$color-main3:#000;

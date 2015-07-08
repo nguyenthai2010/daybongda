@@ -19,6 +19,7 @@
     <link rel='stylesheet' id='bsf-iconsmind-css'  href='css/iconsmind.css?ver=4.2.2' type='text/css' media='all' />
     <link rel='stylesheet' id='iconsmind.line-icons-css'  href='css/iconsmind-line-icons.css?ver=4.2.2' type='text/css' media='all' />
     <link rel='stylesheet' id='style.default-css'  href='css/style.css?ver=4.2.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='style.custom-css'  href='css/custom.css' type='text/css' media='all' />
     <script type='text/javascript' src='js/greensock.js?ver=1.11.8'></script>
     <script type='text/javascript' src='js/countUp.min.js?ver=4.2.2'></script>
     <script type='text/javascript' src='js/modernizr-2.6.2-respond-1.1.0.min.js?ver=4.2.2'></script>
@@ -38,12 +39,23 @@
             </div>
         </div>
         <div class="cbp_widget_box two thirds double-padded">
-
-
             <div id="cbp-menu-main" class="pull-right cbp_widget_menu">
                 <div class="menu-main-menu-container">
+                    <?php
+                    $nav = array(
+                        'theme_location'  => 'menu_top',
+                        'menu'            => '',
+                        'container'       => '',
+                        'container_class' => '',
+                        'container_id'    => '',
+                        'menu_class'      => 'sf-menu ch-menu-main',
+                        'menu_id'         => 'menu-main-menu',
+                        'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+                    );
 
-                    <ul id="menu-main-menu" class="sf-menu ch-menu-main">
+                    wp_nav_menu( $nav );
+                    ?>
+                    <!--<ul id="menu-main-menu" class="sf-menu ch-menu-main">
                         <li id="menu-item-284" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-277 current_page_item menu-item-has-children menu-item-284"><a href="http://showcase.aislinthemes.com/carry-hill/">Trang chủ</a>
                         </li>
                         <li id="menu-item-288" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-288"><a href="http://showcase.aislinthemes.com/carry-hill/about/">Giới thiệu</a>
@@ -68,7 +80,7 @@
                         </li>
                         <li id="menu-item-286" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286"><a href="http://showcase.aislinthemes.com/carry-hill/projects/">Liên hệ</a></li>
 
-                    </ul>
+                    </ul>-->
                 </div>
             </div>
         </div>
