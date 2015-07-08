@@ -25,7 +25,7 @@
     <script type='text/javascript' src='js/modernizr-2.6.2-respond-1.1.0.min.js?ver=4.2.2'></script>
     <?php wp_head(); ?>
 </head>
-<body class="home page page-id-277 page-template page-template-page-home page-template-page-home-php wpb-js-composer js-comp-ver-4.5.1 vc_responsive">
+<body <?php body_class('wpb-js-composer js-comp-ver-4.5.1 vc_responsive'); ?>>
 
 
 <div class="cbp-row cbp_widget_row ch-header ch-sticky-header-enabled">
