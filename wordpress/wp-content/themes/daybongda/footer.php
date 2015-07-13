@@ -103,14 +103,15 @@
     <div class="cbp-container">
         <div class="cbp_widget_box two thirds double-padded">
             <div id="cbp-menu-5285524473c74" class="left cbp_widget_menu">
-                <div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="sf-menu ch-menu-footer"><li id="menu-item-292" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-277 current_page_item menu-item-292"><a href="http://showcase.aislinthemes.com/carry-hill/">Trang chủ</a></li>
-                        <li id="menu-item-291" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-291"><a href="http://showcase.aislinthemes.com/carry-hill/about/">About</a></li>
-                        <li id="menu-item-290" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-290"><a href="http://showcase.aislinthemes.com/carry-hill/blog/">Blog</a></li>
-                    </ul></div>            </div>
+                <div class="cbp_widget_text align-left">
+                    Giáo viên: PHẠM HỮU LỘC</div>
+
+            </div>
         </div>
         <div class="cbp_widget_box one third double-padded">
             <div class="cbp_widget_text align-right">
-                © 2015 Carry Hill                </div>
+                © 2015 - Bản quyền thuộc về Daythethao.vn                </div>
         </div>
     </div>
 </div>
+<?php wp_footer(); ?>

@@ -17,3 +17,17 @@
     height: 100px;
   }
 }
+
+.wpcf7 {
+  input[type="text"], input[type="date"], input[type="email"], input[type="password"] {
+    width: 60%;
+    height: 35px;
+  }
+
+  textarea {
+    width: 100%;
+  }
+}
+
+
+

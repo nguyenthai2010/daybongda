@@ -246,7 +246,7 @@ input, textarea { border: none; -webkit-box-shadow: inset 0 3px 1px 0 #cecece; -
 
 input[type="text"], input[type="password"] { height: 35px; }
 
-body { color: #a19d9d; line-height: 1.5; font-size: 14px; background: #35b2b2 url("../img/background-pattern.png"); }
+body { color: #333; line-height: 1.5; font-size: 14px; background: #35b2b2 url("../img/background-pattern.png"); }
 
 .ch-main-wrap { background: #35b2b2 url("../img/background-pattern.png"); box-shadow: 0 0 9px #d1d1d1; }
 
@@ -314,7 +314,7 @@ button:active, input[type="submit"]:active, input[type="button"]:active, input[t
 .chp_widget_page_title .chp-page-title-icon { background-color: #e47823; color: #f4f4f4; width: 100px; height: 100px; border-radius: 100px; display: table-cell; vertical-align: middle; text-align: center; font-size: 14px; }
 
 .ch-quote-testimonials li { background: #eeeeeb url("../img/background-pattern-small.png"); padding: 35px 60px; }
-.ch-quote-testimonials blockquote { font-size: 14px; font-style: normal; margin: 0.25em 0; padding: 0; line-height: 1.5; position: relative; color: #A19D9D; }
+.ch-quote-testimonials blockquote { font-size: 14px; font-style: normal; margin: 0.25em 0; padding: 0; line-height: 1.5; position: relative; color: #333; }
 .ch-quote-testimonials blockquote:before { font-family: Georgia, serif; display: block; padding-left: 10px; content: "\201C"; font-size: 100px; position: absolute; left: -60px; top: -40px; color: #CCCCCA; height: 20px; }
 .ch-quote-testimonials blockquote:after { font-family: Georgia, serif; display: block; padding-left: 10px; content: "\201D"; font-size: 100px; position: relative; right: -50px; bottom: 76px; color: #CCCCCA; float: right; height: 20px; }
 .ch-quote-testimonials blockquote cite { color: #999999; font-size: 14px; display: block; margin-top: 5px; }
@@ -425,7 +425,7 @@ button:active, input[type="submit"]:active, input[type="button"]:active, input[t
 .chp_widget_post_list .ch-border-title a, .widget .ch-border-title a { color: #35b0b0; }
 .chp_widget_post_list .ch-border-title:before, .widget .ch-border-title:before { margin-bottom: 7px; }
 .chp_widget_post_list .ch-border-title:after, .widget .ch-border-title:after { margin-top: 7px; }
-.chp_widget_post_list .cbp-widget-post-content, .widget .cbp-widget-post-content { color: #A19D9D; }
+.chp_widget_post_list .cbp-widget-post-content, .widget .cbp-widget-post-content { color: #333; }
 .chp_widget_post_list .cbp-widget-post-meta-date, .widget .cbp-widget-post-meta-date { font-family: arvoregular, serif; font-size: 11px; color: #a6a6a6; margin-right: 5px; }
 .chp_widget_post_list .cbp-widget-post-meta-author, .widget .cbp-widget-post-meta-author { font-family: arvoregular, serif; font-style: italic; font-size: 11px; color: #6e6e6e; }
 .chp_widget_post_list .cbp-widget-post-meta-author a, .widget .cbp-widget-post-meta-author a { color: #6e6e6e; }
