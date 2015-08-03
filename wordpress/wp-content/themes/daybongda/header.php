@@ -32,7 +32,7 @@
     <div class="cbp-container">
         <div class="cbp_widget_box one third double-padded">
             <div class="chp_widget_logo two-up-mobile">
-                <a href="http://showcase.aislinthemes.com/carry-hill">
+                <a href="http://daybongda.com.vn/">
                     <img src="images/logo.png" alt="logo" height="80">
                 </a>
 

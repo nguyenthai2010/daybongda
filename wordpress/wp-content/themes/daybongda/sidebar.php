@@ -18,24 +18,18 @@
     </div>
 
     <div id="chp_latest_posts-3" class="widget widget-latest-posts">
-        <h3 class="widget_title">Hoạt động</h3>
+        <h3 class="widget_title">HLV Chủ nhiệm</h3>
         <div class="one whole pad-bottom cbp-widget-post-list-item">
             <div class="ch-border-title">
-                <a title="School Begins - Welcome back!" href="http://showcase.aislinthemes.com/carry-hill/2014/04/05/news-item-3/">School Begins - Welcome back!</a>
+                <a title="Thạc Sỹ PHẠM HỮU LỘC" >Thạc Sỹ PHẠM HỮU LỘC</a>
             </div>
-            <div class="cbp-widget-post-meta-data">
 
-                    <span class="cbp-widget-post-meta-date">
-                        5 Apr, 2014                    </span>
-                    <span class="cbp-widget-post-meta-author">
-                        by <a href="http://showcase.aislinthemes.com/carry-hill/author/aislin/">
-                            aislin                        </a>
-                    </span>
-
-            </div>
 
             <div class="cbp-widget-post-content">
-                <p>Worked with the grade 6-8 students at school to raise…</p>                        </div>
+                <p>
+
+                    <img src="images/hlv.jpg" width="100%">
+                </p>                        </div>
         </div>
 
 

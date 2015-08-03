@@ -30,4 +30,32 @@
 }
 
 
+.thuvien {
+  p.text {
+    text-align: center;
+    padding-top: 10px;
+  }
+}
+
+.ch-quote-testimonials{
+  li {
+    padding: 0;
+  }
+}
+
+.ch-footer-top {
+  .widget_title {
+    border-bottom: 1px solid #8f9a9e;
+    color: #35b0b0;
+  }
+
+  .ch-border {
+    border-top: 1px solid #8f9a9e;
+    padding-top: 10px;
+
+    &.noborder {
+      border: none;
+    }
+  }
+}
 

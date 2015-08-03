@@ -70,7 +70,6 @@ $category = get_queried_object();
                                     </div>
                                     <div class="cbp-widget-post-content">
                                         <?php echo $description?>
-
                                     </div>
                                     <div class="cbp-widget-post-link double-pad-top">
                                         <a class="cbp_widget_link" href="<?php echo get_the_permalink($row->ID); ?>">Xem thêm</a>

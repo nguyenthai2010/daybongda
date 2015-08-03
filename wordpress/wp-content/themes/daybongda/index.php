@@ -1,5 +1,5 @@
 <?php
-    get_header();
+get_header();
 ?>
 
                 <div  class="cbp-row cbp_widget_row ch-slider " >
@@ -83,19 +83,20 @@
                     </div>
 
 
-
+<?php
+$aboutid = get_page_id_by_slug('gioi-thieu');
+$about = get_post($aboutid);
+$aboutContent = $about->post_content;
+?>
                                                             <div  class="cbp-row cbp_widget_row ch-content " >
                         <div class="cbp-container">
                                             <div class="cbp_widget_box two thirds double-padded "   >            <div class="cbp_brick cbp_widget_link_to_page ">
-                <h2>
-                                    <a href="http://showcase.aislinthemes.com/carry-hill/about/">We care about kids</a>
-                                </h2>
+                <h2><?php echo $about->post_title; ?></h2>
                                 <div class="cbp-widget-post-content">
-                    <div class="ch-shortcode ch-border-title"><span>Looking for a school your child will love? </span></div> All children in have a right to free public education. Children with special needs may have one or more of the following difficulties: physical, intellectual, emotional, behavioural, speech, vision, hearing or language. Even children who are intellectually gifted can have special needs. Special education programs may be provided for these students.</p>
+                    <div class="ch-shortcode ch-border-title"><span> </span></div>
+                    <?php echo $aboutContent; ?>
                 </div>
-                <div class="cbp-widget-page-link double-pad-top">
-                    <a class="cbp_widget_link" href="http://showcase.aislinthemes.com/carry-hill/about/">Read More</a>
-                </div>
+
             </div>
 
             </div>
@@ -103,30 +104,17 @@
                             <div class="cbp_widget_box one third double-padded ">
 
                                 <div class="cbp_brick cbp_widget_text align-left ">
-                                    <h3>What People Say</h3>
+                                    <h3>HLV Chủ nhiệm</h3>
                                 </div>
-                                <div class="bx-wrapper" style="max-width: 100%; margin: 0px auto 30px;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 220px;"><ul id="cbp-slider-559a05c00d34e" class="cbp_brick cbp_widget_slider ch-quote-testimonials " style="width: auto; position: relative; -webkit-transition-duration: 1s; transition-duration: 1s; -webkit-transform: translate3d(0px, -502px, 0px);"><li style="float: none; list-style: none; position: relative; width: 287px;" class="bx-clone">
-                                    <blockquote><p>Pellentesque rutrum nibh sit amet lorem auctor, ut feugiat nulla tincidunt. Etiam et ultricies ipsum, id condimentum nibh.</p>
-                                    </blockquote>
-                                    <p><cite class="ch-shortcode ch-cite">John Doe</cite> </p>
+                                <div class="bx-wrapper" style="max-width: 100%; margin: 0px auto 30px;"><div class="bx-viewport" style="width: 100%; position: relative; height: auto;">
+                                        <ul id="cbp-slider-559a05c00d34e" class="cbp_brick cbp_widget_slider ch-quote-testimonials " style="width: auto; position: relative; ">
+                                <li style="float: none; list-style: none; position: relative; width: 287px;" class="bx-clone">
+                                    <img src="images/hlv.jpg" width="100%">
+                                    <p><cite class="ch-shortcode ch-cite">Thạc Sỹ PHẠM HỮU LỘC</cite> </p>
                                 </li>
-                                    <li style="float: none; list-style: none; position: relative; width: 287px;">
-                                        <blockquote><p>Pellentesque rutrum nibh sit amet lorem auctor, ut feugiat nulla tincidunt. Etiam et ultricies ipsum, id condimentum nibh. Quisque sit amet quam vitae tortor dignissim consequat</p>
-                                        </blockquote>
-                                        <p><cite class="ch-shortcode ch-cite">John Doe</cite> </p>
-                                    </li>
 
-                                    <li style="float: none; list-style: none; position: relative; width: 287px;">
-                                        <blockquote><p>Pellentesque rutrum nibh sit amet lorem auctor, ut feugiat nulla tincidunt. Etiam et ultricies ipsum, id condimentum nibh.</p>
-                                        </blockquote>
-                                        <p><cite class="ch-shortcode ch-cite">John Doe</cite> </p>
-                                    </li>
-
-                                    <li style="float: none; list-style: none; position: relative; width: 287px;" class="bx-clone">
-                                        <blockquote><p>Pellentesque rutrum nibh sit amet lorem auctor, ut feugiat nulla tincidunt. Etiam et ultricies ipsum, id condimentum nibh. Quisque sit amet quam vitae tortor dignissim consequat</p>
-                                        </blockquote>
-                                        <p><cite class="ch-shortcode ch-cite">John Doe</cite> </p>
-                                    </li></ul></div><div class="bouble-tail"></div></div>
+                                        </ul>
+                                    </div></div>
 
 
                             </div>
