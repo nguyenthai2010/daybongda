@@ -3,41 +3,28 @@ get_header();
 ?>
 
                 <div  class="cbp-row cbp_widget_row ch-slider " >
-                        <div class="cbp-container">
+                        <ul class="sliders">
+                            <?php
+                            $i = 0;
+                            $args = array(
+                                'post_type' 	 => 'slider',
+                                'posts_per_page' => -1
+                            );
+                            $queryRows = get_posts($args);
 
+                            foreach ($queryRows as $row) {
+                                $i++;
+                                $url_image = get_the_post_thumbnail_url($row->ID, 'custom-size');
+                                $url_link = get_permalink($row->ID);
+                                $name = $row->post_title;
+                                $postcontent = strip_tags ($row->post_content);
 
-                            <div class="cbp_widget_box one whole double-pad-left double-pad-right "   >
-                                <?php
-                                $i = 0;
-                                $args = array(
-                                    'post_type' 	 => 'slider',
-                                    'posts_per_page' => -1
-                                );
-                                $queryRows = get_posts($args);
-
-                                foreach ($queryRows as $row) {
-                                    $i++;
-                                    $url_image = get_the_post_thumbnail_url($row->ID, 'custom-size');
-                                    $url_link = get_permalink($row->ID);
-                                    $name = $row->post_title;
-                                    $postcontent = strip_tags ($row->post_content);
-
-                                    ?>
-
-                                    <div class="col-md-3">
-                                        <img class="img-responsive" src="<?=$url_image?>" alt="Blog">
-                                        <div class="recent-posts mt-md mb-lg">
-                                            <article class="post">
-                                                <h5><a class="text-dark" href="<?=$url_link?>"><?=$name?></a></h5>
-                                                <p><?=limit_text($postcontent,15)?></p>
-                                                <a class="btn-flat btn-xs" href="<?=$url_link?>">Chi tiết <i class="fa fa-arrow-right"></i></a>
-                                            </article>
-                                        </div>
-                                    </div>
-
-                                <?php }?>
-                            </div>
-                        </div>
+                                ?>
+                                <li style="background: url('<?=$url_image?>') no-repeat center; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+                                    <a href="<?=$url_link?>"></a>
+                                </li>
+                            <?php }?>
+                        </ul>
                     </div>
 
 
