@@ -3,7 +3,7 @@ get_header();
 ?>
 
                 <div  class="cbp-row cbp_widget_row ch-slider " >
-                        <ul class="sliders">
+                        <ul class="sliders bxslider">
                             <?php
                             $i = 0;
                             $args = array(
@@ -142,6 +142,11 @@ $aboutContent = $about->post_content;
     get_footer();
 ?>
 
+<script>
+    jQuery(document).ready(function(){
+        jQuery('.bxslider').bxSlider();
+    });
+</script>
 
 </body>
 </html>

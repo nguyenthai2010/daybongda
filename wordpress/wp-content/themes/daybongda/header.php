@@ -23,7 +23,13 @@
     <script type='text/javascript' src='js/greensock.js?ver=1.11.8'></script>
     <script type='text/javascript' src='js/countUp.min.js?ver=4.2.2'></script>
     <script type='text/javascript' src='js/modernizr-2.6.2-respond-1.1.0.min.js?ver=4.2.2'></script>
+
     <?php wp_head(); ?>
+
+    <!-- bxSlider Javascript file -->
+    <script src="vendor/bxslider-4/js/jquery.bxslider.js"></script>
+    <!-- bxSlider CSS file -->
+    <link href="vendor/bxslider-4/css/jquery.bxslider.css" rel="stylesheet" />
 </head>
 <body <?php body_class('wpb-js-composer js-comp-ver-4.5.1 vc_responsive'); ?>>
 
